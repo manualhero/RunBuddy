@@ -34,9 +34,54 @@
         </header>
 
     <!-- hero/jumbotron -->
-        <section>
+        <section id="hero">
+            <div>
+                <h3>Get Started Today!</h3>
+                <p>
+                    Fill out this form and one of our trainers will schedule a consult.
+                </p>
+            </div>
+            <!-- form element-->
+                <form>
+                    <label for="name">Enter full name:</label>
+                    <br>
+                    <input type="text" placeholder="Your Name" name="name" id="name" />
+                    <br><br>
+                    <label for="email">Enter email address:</label> 
+                    <br>
+                    <input type="text" placeholder="username@example.com" name="email" id="email" />
+                    <br><br>
+                    <label for="phone">Enter telephone number:</label> 
+                    <br>
+                    <input type="text" placeholder="(555)555-5555" name="phone" id="phone">
+                    <br><br>
+                
+            <!-- radio button element -->
+                    <p>
+                        Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="Yes" value="Yes" />
+                    <label for="Yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="No" value="No" />
+                    <label for="No">No</label>
+                    <br><br>
+                    </p>
+                    
+            <!-- age consent agreement -->
+                    <p> 
+                        <label for="age-consent">I acknowledge that I am at least 17 years of age</label>
+                        <input type="checkbox" name="age-consent" id="age-consent" />
+                    </p>
+                    <br>
 
+            <!-- submit button -->
+                    <button type="submit">
+                        Get running!
+                    </button>
+
+                </form>     
         </section>
+    <!-- end hero -->
+    
     <!-- What We Do section -->
         <section>
             <h2>What We Do</h2>
