@@ -34,27 +34,27 @@
         </header>
 
     <!-- hero/jumbotron -->
-        <section id="hero">
-            <div>
+        <section class="hero">
+            <div class="hero-form">
                 <h3>Get Started Today!</h3>
                 <p>
                     Fill out this form and one of our trainers will schedule a consult.
                 </p>
-            </div>
+            
             <!-- form element-->
                 <form>
                     <label for="name">Enter full name:</label>
-                    <br>
-                    <input type="text" placeholder="Your Name" name="name" id="name" />
-                    <br><br>
+
+                    <input class="form-input" type="text" placeholder="Your Name" name="name" id="name" />
+
                     <label for="email">Enter email address:</label> 
-                    <br>
-                    <input type="text" placeholder="username@example.com" name="email" id="email" />
-                    <br><br>
+
+                    <input class="form-input" type="text" placeholder="user@example.com" name="email" id="email" />
+
                     <label for="phone">Enter telephone number:</label> 
-                    <br>
-                    <input type="text" placeholder="(555)555-5555" name="phone" id="phone">
-                    <br><br>
+
+                    <input class="form-input" type="text" placeholder="(555)555-5555" name="phone" id="phone">
+
                 
             <!-- radio button element -->
                     <p>
@@ -63,7 +63,7 @@
                     <label for="Yes">Yes</label>
                     <input type="radio" name="trainer-confirm" id="No" value="No" />
                     <label for="No">No</label>
-                    <br><br>
+
                     </p>
                     
             <!-- age consent agreement -->
@@ -71,7 +71,7 @@
                         <label for="age-consent">I acknowledge that I am at least 17 years of age</label>
                         <input type="checkbox" name="age-consent" id="age-consent" />
                     </p>
-                    <br>
+
 
             <!-- submit button -->
                     <button type="submit">
@@ -79,24 +79,55 @@
                     </button>
 
                 </form>     
+            </div>
         </section>
     <!-- end hero -->
-    
+
     <!-- What We Do section -->
-        <section>
-            <h2>What We Do</h2>
+        <section id="what-we-do">
+                <div class="we">
+                    <h2>What We Do</h2>
+                    <p>
+                        insert text information about what we do rightttttttttt here.
+                    </p>
+                </div>
         </section> 
+
     <!-- What You Do section -->
-        <section>
+        <section id="what-you-do">
             <h2>What You Do</h2>
+            <div>
+                <img src="./assets/images/step-1.svg" alt="" />
+                <h3>Step 1: Fill Out the From Above.</h3>
+                <p>You're already here, so why not?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-2.svg" alt="" />
+                <h3>Step 2: Consult With One Of Our Trainers.</h3>
+                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-3.svg" alt="" />
+                <h3>Step 3: Get Running.</h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan. </p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-4.svg" alt="" />
+                <h3>Results.</h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused.</p>
+            </div>
         </section>
+
     <!-- Your Trainers section -->
-        <section>
+        <section id="your-trainers">
             <h2>Your Trainers</h2>
         </section>
 
     <!-- Reach Out section -->
-        <section>
+        <section id="reach-out">
             <h2>Reach Out</h2>
         </section>
     </body>
