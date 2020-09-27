@@ -238,3 +238,44 @@ section {
 .text-right {
     text-align: right;
 }
+
+
+/* --------REACH OUT-------- */
+.reach {
+    text-align: center;
+    background-color: #024e76;
+}
+
+.reach h2 {
+    color: #fce138;
+}
+
+.reach iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.reach-out h4 {
+    color: #fce138;
+    font-size: 26px;
+}
+
+.reach-out p, .reach-out address {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.7;
+}
+
+.reach-out a {
+    color: #fce138;
+}
